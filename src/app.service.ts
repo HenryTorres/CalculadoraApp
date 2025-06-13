@@ -10,6 +10,15 @@ export class AppService {
   multiplicar(a: number, b: number): number {
     return a * b;
   }
+
+  functionSuma(a: number, b: number): number {
+    return a+b;
+    
+    let rpta = functionSuma(5, 2);
+    console.log(rpta);
+  }
+
+ 
 }
 
 function divide(a: number, b: number): number {
